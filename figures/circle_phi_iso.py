@@ -109,6 +109,7 @@ if __name__ == "__main__":
     n_iter = 35
     d = 2
     expansion_rate = 1.5
+    margin = .7 # higher -> emphasize more on variance -> more exploration/less exploit
     
     # Set a global boundary
     BD = np.array([[-2.2, -4], 
@@ -135,7 +136,8 @@ if __name__ == "__main__":
     
     qs = AdversarialSampling(
          dataset, # Dataset object
-         model=GPC(RBF(1), optimizer=None)
+         model=GPC(RBF(1), optimizer=None),
+         margin=margin
          )
     
     qs1 = UncertSampling(                    
@@ -163,11 +165,10 @@ if __name__ == "__main__":
             dataset.append(entry)
         
         # Query a new sample
-        margin = .7 # higher -> emphasize more on variance -> more exploration/less exploit
         ask_id, clf = qs.make_query(center, margin)
 #        ask_id, clf = qs1.make_query()
-#        clf.train(dataset)
 #        ask_id = qs2.make_query()
+#        clf.train(dataset)
         new = dataset.data[ask_id][0].reshape(1,-1)
         
         if i == 14 or i == 35:
