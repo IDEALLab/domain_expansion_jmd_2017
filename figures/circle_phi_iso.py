@@ -1,12 +1,7 @@
 """
-Active learning using ALBL and the GPC as classifier
+Code for plotting Fig. 4
 
 Author(s): Wei Chen (wchen459@umd.edu)
-
-References:
------------
-Hsu, W. N., & Lin, H. T. (2015, January). Active learning by learning. In Proceedings 
-of the Twenty-Ninth AAAI Conference on Artificial Intelligence (pp. 2659-2665). AAAI Press.
 """
 
 import math

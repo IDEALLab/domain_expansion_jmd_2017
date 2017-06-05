@@ -1,3 +1,9 @@
+"""
+Code for plotting Fig. 2
+
+Author(s): Wei Chen (wchen459@umd.edu)
+"""
+
 import math
 import numpy as np
 from sklearn.neighbors import KernelDensity
