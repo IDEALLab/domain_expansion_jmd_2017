@@ -1,5 +1,5 @@
 # Beyond the Known: Detecting Novel Feasible Domains over an Unbounded Design Space
-Experiment code associated with our JMD paper: "Beyond the Known: Detecting Novel Feasible Domains over an Unbounded Design Space"
+Experiment code associated with our JMD paper: "[Beyond the Known: Detecting Novel Feasible Domains over an Unbounded Design Space](https://mechanicaldesign.asmedigitalcollection.asme.org/article.aspx?articleid=2645709)"
 
 ![Alt text](/manifold1.png)
 
