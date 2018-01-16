@@ -54,7 +54,7 @@ The plot showing feasible designs will be saved in the folder "synthesized_shape
 
 This code is licensed under the MIT license. Feel free to use all or portions for your research or related projects so long as you provide the following citation information:
 
-Chen W, Fuge M. Beyond the Known: Detecting Novel Feasible Domains over an Unbounded Design Space. ASME. J. Mech. Des. to appear.
+Chen W, Fuge M. Beyond the Known: Detecting Novel Feasible Domains over an Unbounded Design Space. ASME. J. Mech. Des. 2017;139(11):111405-111405-10. doi:10.1115/1.4037306.
 
     @article{chen2017beyond,
       title={Beyond the Known: Detecting Novel Feasible Domains over an Unbounded Design Space},
