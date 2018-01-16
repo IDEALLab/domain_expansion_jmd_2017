@@ -62,7 +62,7 @@ Chen W, Fuge M. Beyond the Known: Detecting Novel Feasible Domains over an Unbou
       journal={Journal of Mechanical Design},
       volume={139},
       number={11},
-      pages={111405},
+      pages={111405-111405-10},
       year={2017},  
       publisher={American Society of Mechanical Engineers}
     }
