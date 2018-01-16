@@ -3,22 +3,23 @@ Experiment code associated with our JMD paper: "[Beyond the Known: Detecting Nov
 
 ![Alt text](/manifold1.png)
 
-To run the Branin example:
+### Branin example
 ```
 python exp_branin.py
 ```
 
-To run the Hosaki example:
+### Hosaki example
 ```
 python exp_hosaki.py
 ```
 
-To run the two-sphere example:
+### Two-sphere example
 ```
 python exp_2spheres.py
 ```
 
-To run the airfoil example, edit the "source" item in the file "config.ini":
+### Airfoil example
+Edit the "source" item in the file "config.ini":
 ```
 source = sf-foil
 ``` 
@@ -27,7 +28,8 @@ and then:
 python exp_airfoil.py
 ```
 
-To run the stemless glass example, edit the "source" item in the file "config.ini":
+### Glass example
+Edit the "source" item in the file "config.ini":
 ```
 source = rw-beer
 ``` 
@@ -36,7 +38,8 @@ and then:
 python exp_novelty.py
 ```
 
-To run the bottle example, edit the "source" item in the file "config.ini":
+### Bottle example
+Edit the "source" item in the file "config.ini":
 ```
 source = rw-bottle
 ``` 
@@ -45,13 +48,14 @@ and then:
 python exp_novelty.py
 ```
 
+### Synthesize new designs
 For real-world examples (airfoil, glass, and bottle examples), to synthesize new shapes inside the identified feasible domains:
 ```
 python synthesis.py
 ```
 The plot showing feasible designs will be saved in the folder "synthesized_shapes".
 
-
+### License
 This code is licensed under the MIT license. Feel free to use all or portions for your research or related projects so long as you provide the following citation information:
 
 Chen W, Fuge M. Beyond the Known: Detecting Novel Feasible Domains over an Unbounded Design Space. ASME. J. Mech. Des. 2017;139(11):111405-111405-10. doi:10.1115/1.4037306.
@@ -67,6 +71,7 @@ Chen W, Fuge M. Beyond the Known: Detecting Novel Feasible Domains over an Unbou
       publisher={American Society of Mechanical Engineers}
     }
 
+### Design manifold
 The design manifolds for real-world examples are generated using [the code for our previous paper](https://github.com/IDEALLab/design_embeddings_jmd_2016):
 
 Chen W, Fuge M, Chazan J. Design Manifolds Capture the Intrinsic Complexity and Dimension of Design Spaces. ASME. J. Mech. Des. 2017;139(5):051102-051102-10. doi:10.1115/1.4036134.
