@@ -60,8 +60,10 @@ Chen W, Fuge M. Beyond the Known: Detecting Novel Feasible Domains over an Unbou
       title={Beyond the Known: Detecting Novel Feasible Domains over an Unbounded Design Space},
       author={Chen, Wei and Fuge, Mark},
       journal={Journal of Mechanical Design},
-      pages={to appear},
-      year={2017},
+      volume={139},
+      number={11},
+      pages={111405},
+      year={2017},  
       publisher={American Society of Mechanical Engineers}
     }
 
